@@ -1,0 +1,5 @@
+.config/dotfiles
+.cache
+.local
+.ssh
+workspace
