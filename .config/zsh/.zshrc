@@ -26,6 +26,7 @@ source "$XDG_CONFIG_HOME/profile.d/aliases.sh"
 ###############################################################################
 source "$ZDOTDIR/plugins/git-prompt/git-prompt.plugin.zsh"
 source "$ZDOTDIR/prompt.zsh"
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 
 ###############################################################################

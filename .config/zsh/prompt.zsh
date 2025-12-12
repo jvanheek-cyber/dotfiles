@@ -8,8 +8,8 @@ function add_section {
     echo -n "${transition} ${symbol} ${content} "
 }
 function build_prompt {
-    if [ ! -z "$CONDA_DEFAULT_ENV" ]; then
-        local prompt="%K{green}%F{black}${ZSH_THEME_ICON_CONDA} ${CONDA_DEFAULT_ENV} "
+    if [ ! -z "$VIRTUAL_ENV_PROMPT" ]; then
+        local prompt="%K{green}%F{black}${ZSH_THEME_ICON_CONDA} ${VIRTUAL_ENV_PROMPT} "
         local prev_bg_color="green"
         prompt+=$(add_section $ZSH_THEME_ICON_CWD "%~" "blue" $prev_bg_color)
         prev_bg_color="blue"
