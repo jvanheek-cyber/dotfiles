@@ -1,4 +1,6 @@
 .config/dotfiles
+.config/profile.d/secrets.sh
+.config/profile.d/zzz-host-specific.sh
 .cache
 .local
 .ssh
