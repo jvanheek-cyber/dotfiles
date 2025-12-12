@@ -1,0 +1,10 @@
+[user]
+	email = 84579746+jvanheek-cyber@users.noreply.github.com
+	name = jvanheek-cyber
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	editor = vim
