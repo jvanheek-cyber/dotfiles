@@ -1,0 +1,1 @@
+export DOTNET_CLI_HOME="$XDG_DATA_HOME/dotnet"

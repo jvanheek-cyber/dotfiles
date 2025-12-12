@@ -1,0 +1,3 @@
+export IPYTHONDIR="$XDG_CONFIG_HOME/ipython"
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHON_HISTORY="$XDG_DATA_HOME/python/history"
